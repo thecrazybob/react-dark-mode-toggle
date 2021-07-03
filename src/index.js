@@ -31,6 +31,7 @@ const NightModeToggle = ({ size, checked, onChange, speed, className }) => {
         padding: 0,
       }}
       aria-hidden="true"
+      tabindex="-1"
       className={className}
     >
       <div
